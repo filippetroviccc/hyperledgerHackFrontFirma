@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	background-color: #7498b2;
+
+}
+#inputLek {
+	border: 0;
+	border-radius: 3px;
+	background-color: #7498b2;
+	color: #ecf0f1;
+	padding: 0;
+	margin: 0 auto;
+	width: calc(100% - 10px);
+	float: left;
+}
+#inputLek input {
+	width: 98%;
+	line-height: 3em;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	color: #ecf0f1;
+	display: block;
+}
+.page {
+	display: table;
+	height: 100vh;
+	margin: 0 auto;
+}
+.cartIn {
+	background-color: #ecf0f1;
+	box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+	border-radius: 3px;
+}
+.cart {
+	width: 45%;
+	margin: 0 auto;
+	vertical-align: middle;
+	box-sizing: border-box;
+	display: table-cell;
+}
+#dugmePosalji {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	background-color: #39557c;
+	border: 0;
+	line-height: 3em;
+	border-radius: 3px;
+	color: #ecf0f1;
+	font-size: 14px;
+	font-weight: bold;
+	box-shadow: 1px 3px #314e75;
+}
+.col-sm-8, .col-sm-4,.col-sm-10, .col-sm-2, .col-sm-12, .col-sm-6 {
+	padding: 0;
+}
+.block {
+	display: -webkit-box;
+	margin: 10px 0 10px 10px;
+}
+#logoNas {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+h1 {
+	text-align: center;
+	padding: 15px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #fefefd;
+	opacity: 1; /* Firefox */
+}
+.navbar {
+	background-color: #39557c;
+	border: 0;
+}
+a:link, a:visited {
+	color: #ecf0f1 !important;	
+}
+.navbar .active a{
+	background-color: #7498b2 !important;
+}
